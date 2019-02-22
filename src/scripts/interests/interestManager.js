@@ -32,9 +32,7 @@ const submitButtonStatus = () => {
         else {
             //adding new form
             $("#int_list").innerHTML = ""
-            interestForm().then(() => {
-                interestManager.Add()
-            })
+            interestForm()
         }
 
     }
@@ -71,7 +69,7 @@ const interestManager = {
                     $("#placeId").value = obj.placeId
                     $("#placeId").enabled = false
                     $("#AddNewInterest").classList = obj.id
-                    this.Add()
+
                 })
 
             }
