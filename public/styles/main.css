@@ -1,0 +1,21 @@
+#container {
+    display: flex;
+}
+
+#places_list {
+    width : 30%;
+}
+.listContainer {
+
+    float: right;
+    width : 70%;
+}
+#int_list {
+    height: 70vh;
+    overflow: scroll;
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
